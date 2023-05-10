@@ -1,0 +1,132 @@
+.container {
+    max-width: 600px;
+    margin: 3vh auto 0;
+    margin-bottom: 35px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#display {
+    text-align: right;
+    -webkit-text-stroke-width: 3px;
+    
+    border: 5px solid rgba(0, 0, 0, 0.252);
+    background-color: rgb(226, 43, 137);
+    padding: 10px;
+    height: 55px;
+    line-height: 60px;
+    padding: 16px 8px;
+    font-size: 33px;
+}
+body{
+    background: #fff url(calimage.jpg) center center/cover no-repeat;
+   
+}
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #040704;
+    border-left: 1px solid#04060270;
+    border-right: 1px solid#080404;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div {
+    border-top: 25px solid #999;
+    border-right: 25px solid#999;
+    border-left: 25px solid grey;
+    border-bottom: 25px solid grey ;
+}
+.button {
+    border: 0.5px solid black;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+#equal {
+    background-color: rgb(2, 2, 10);
+    color: white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.a{
+    background-color: rgb(120, 93, 225);
+    color: #fff;
+}    
+.b{
+    background-color: rgb(196, 228, 101);
+    color: #fff;
+}
+.c{
+    background-color: rgb(17, 199, 111);
+    color: #fff;
+}
+.d{
+    background-color: rgb(199, 17, 17);
+    color: #fff;
+}
+.e{
+    background-color: rgb(144, 199, 17);
+    color: #fff;
+}
+.f{
+    background-color: rgb(93, 17, 199);
+    color: #fff;
+}
+.g{
+    background-color: rgb(17, 199, 62);
+    color: #fff;
+}
+.h{
+    background-color: rgb(17, 120, 199);
+    color: #fff;
+}
+.i{
+    background-color: rgb(199, 163, 17);
+    color: #fff;
+}
+.j{
+    background-color: rgba(155, 178, 208, 0.935);
+    color: #fff;
+}
+.k{
+    background-color: rgb(199, 17, 150);
+    color: #fff;
+}
+.l{
+    background-color: rgb(17, 199, 111);
+    color: #fff;
+}
+.m{
+    background-color: rgb(95, 167, 132);
+    color: #fff;
+}
+.n{
+    background-color: rgb(94, 240, 169);
+    color: #fff;
+}
+.o{
+    background-color: rgb(176, 182, 179);
+    color: #fff;
+}
+.p{
+    background-color: rgb(199, 17, 65);
+    color: #fff;
+}
+.q{
+    background-color: rgba(17, 199, 111, 0.575);
+    color: #fff;
+}
+.r{
+    background-color: rgb(102, 200, 153);
+    color: #fff;
+}
+.c{
+    background-color: rgb(17, 199, 111);
+    color: #fff;
+}
+.t{
+    background-color: rgb(17, 199, 111);
+    color: #fff;
+}
